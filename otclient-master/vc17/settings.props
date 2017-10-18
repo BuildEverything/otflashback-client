@@ -3,13 +3,13 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros">
     <LUA_DIR>$(OTCLIENTSDKDir)\LuaJIT-2.1.0\</LUA_DIR>
-    <GLEW_DIR>..\src\glew\</GLEW_DIR>
+    <GLEW_DIR>$(ProjectDir)\..\src\glew\</GLEW_DIR>
     <LIBOGG_DIR>$(OTCLIENTSDKDir)\libogg-1.3.2\</LIBOGG_DIR>
     <LIBVORBIS_DIR>$(OTCLIENTSDKDir)\libvorbis-1.3.5\</LIBVORBIS_DIR>
     <OPEN_AL_DIR>$(OTCLIENTSDKDir)\OpenAL-1.15.1\</OPEN_AL_DIR>
     <OPEN_SSL_DIR>$(OTCLIENTSDKDir)\OpenSSL-1.0.2j\</OPEN_SSL_DIR>
     <PHYSFS_DIR>$(OTCLIENTSDKDir)\physfs-2.0.3.1\</PHYSFS_DIR>
-	<ZLIB_DIR>..\src\zlib\</ZLIB_DIR>
+	<ZLIB_DIR>$(ProjectDir)\..\src\zlib\</ZLIB_DIR>
 
     <PREPROCESSOR_DEFS>
         WIN32;
